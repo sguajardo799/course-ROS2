@@ -1,1 +1,0 @@
-/home/ros2curso/curso/lab1/demo_nodos/setup.py

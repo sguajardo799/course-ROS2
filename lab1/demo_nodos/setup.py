@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             "simple_node = demo_nodos.simple_node:main",
-            "pub_node_rgba = demo_nodos.pub_node:main"
+            "simple_pub = demo_nodos.pub_node:main",
+            "simple_sub = demo_nodos.sub_node:main",
         ],
     },
 )

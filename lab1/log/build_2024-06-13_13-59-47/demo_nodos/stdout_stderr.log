@@ -1,0 +1,37 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo-nodos.egg-link (link to .)
+running egg_info
+writing ../build/demo_nodos/demo_nodos.egg-info/PKG-INFO
+writing dependency_links to ../build/demo_nodos/demo_nodos.egg-info/dependency_links.txt
+writing entry points to ../build/demo_nodos/demo_nodos.egg-info/entry_points.txt
+writing requirements to ../build/demo_nodos/demo_nodos.egg-info/requires.txt
+writing top-level names to ../build/demo_nodos/demo_nodos.egg-info/top_level.txt
+reading manifest file '../build/demo_nodos/demo_nodos.egg-info/SOURCES.txt'
+writing manifest file '../build/demo_nodos/demo_nodos.egg-info/SOURCES.txt'
+running build
+running build_py
+copying demo_nodos/pub_node.py -> /home/ros2curso/curso/lab1/build/demo_nodos/build/lib/demo_nodos
+copying demo_nodos/simple_node.py -> /home/ros2curso/curso/lab1/build/demo_nodos/build/lib/demo_nodos
+copying demo_nodos/sub_node.py -> /home/ros2curso/curso/lab1/build/demo_nodos/build/lib/demo_nodos
+running install
+running install_lib
+creating /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos
+copying /home/ros2curso/curso/lab1/build/demo_nodos/build/lib/demo_nodos/__init__.py -> /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos
+copying /home/ros2curso/curso/lab1/build/demo_nodos/build/lib/demo_nodos/pub_node.py -> /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos
+copying /home/ros2curso/curso/lab1/build/demo_nodos/build/lib/demo_nodos/simple_node.py -> /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos
+copying /home/ros2curso/curso/lab1/build/demo_nodos/build/lib/demo_nodos/sub_node.py -> /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos
+byte-compiling /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos/pub_node.py to pub_node.cpython-310.pyc
+byte-compiling /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos/simple_node.py to simple_node.cpython-310.pyc
+byte-compiling /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos/sub_node.py to sub_node.cpython-310.pyc
+running install_data
+copying resource/demo_nodos -> /home/ros2curso/curso/lab1/install/demo_nodos/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros2curso/curso/lab1/install/demo_nodos/share/demo_nodos
+running install_egg_info
+Copying ../build/demo_nodos/demo_nodos.egg-info to /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pub_node_rgba script to /home/ros2curso/curso/lab1/install/demo_nodos/lib/demo_nodos
+Installing simple_node script to /home/ros2curso/curso/lab1/install/demo_nodos/lib/demo_nodos
+writing list of installed files to '/home/ros2curso/curso/lab1/build/demo_nodos/install.log'

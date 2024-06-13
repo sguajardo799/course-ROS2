@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'demo-nodos','console_scripts','pub_node_rgba'
+# EASY-INSTALL-ENTRY-SCRIPT: 'demo-nodos==0.0.0','console_scripts','pub_node_rgba'
 import re
 import sys
 
 # for compatibility with easy_install; see #2198
-__requires__ = 'demo-nodos'
+__requires__ = 'demo-nodos==0.0.0'
 
 try:
     from importlib.metadata import distribution
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('demo-nodos', 'console_scripts', 'pub_node_rgba')())
+    sys.exit(load_entry_point('demo-nodos==0.0.0', 'console_scripts', 'pub_node_rgba')())

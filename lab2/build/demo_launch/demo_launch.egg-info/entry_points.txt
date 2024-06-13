@@ -1,0 +1,5 @@
+[console_scripts]
+pub_params = demo_launch.pub_node_params:main
+simple_pub = demo_launch.pub_node:main
+simple_sub = demo_launch.sub_node:main
+

@@ -1,0 +1,24 @@
+[1.095s] Invoking command in '/home/ros2curso/curso/lab2/demo_launch': PYTHONPATH=/home/ros2curso/curso/lab2/build/demo_launch/prefix_override:/home/ros2curso/curso/lab2/install/demo_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/demo_launch build --build-base /home/ros2curso/curso/lab2/build/demo_launch/build install --record /home/ros2curso/curso/lab2/build/demo_launch/install.log --single-version-externally-managed install_data
+[1.491s] running egg_info
+[1.492s] writing ../build/demo_launch/demo_launch.egg-info/PKG-INFO
+[1.497s] writing dependency_links to ../build/demo_launch/demo_launch.egg-info/dependency_links.txt
+[1.497s] writing entry points to ../build/demo_launch/demo_launch.egg-info/entry_points.txt
+[1.497s] writing requirements to ../build/demo_launch/demo_launch.egg-info/requires.txt
+[1.497s] writing top-level names to ../build/demo_launch/demo_launch.egg-info/top_level.txt
+[1.500s] reading manifest file '../build/demo_launch/demo_launch.egg-info/SOURCES.txt'
+[1.509s] writing manifest file '../build/demo_launch/demo_launch.egg-info/SOURCES.txt'
+[1.509s] running build
+[1.510s] running build_py
+[1.510s] running install
+[1.510s] running install_lib
+[1.529s] running install_data
+[1.530s] copying launch/pub_sub.launch.py -> /home/ros2curso/curso/lab2/install/demo_launch/share/demo_launch/launch/
+[1.530s] running install_egg_info
+[1.532s] removing '/home/ros2curso/curso/lab2/install/demo_launch/lib/python3.10/site-packages/demo_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[1.534s] Copying ../build/demo_launch/demo_launch.egg-info to /home/ros2curso/curso/lab2/install/demo_launch/lib/python3.10/site-packages/demo_launch-0.0.0-py3.10.egg-info
+[1.536s] running install_scripts
+[1.600s] Installing pub_params script to /home/ros2curso/curso/lab2/install/demo_launch/lib/demo_launch
+[1.603s] Installing simple_pub script to /home/ros2curso/curso/lab2/install/demo_launch/lib/demo_launch
+[1.607s] Installing simple_sub script to /home/ros2curso/curso/lab2/install/demo_launch/lib/demo_launch
+[1.608s] writing list of installed files to '/home/ros2curso/curso/lab2/build/demo_launch/install.log'
+[1.655s] Invoked command in '/home/ros2curso/curso/lab2/demo_launch' returned '0': PYTHONPATH=/home/ros2curso/curso/lab2/build/demo_launch/prefix_override:/home/ros2curso/curso/lab2/install/demo_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/demo_launch build --build-base /home/ros2curso/curso/lab2/build/demo_launch/build install --record /home/ros2curso/curso/lab2/build/demo_launch/install.log --single-version-externally-managed install_data
