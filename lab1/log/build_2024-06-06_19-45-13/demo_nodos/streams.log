@@ -1,0 +1,20 @@
+[0.868s] Invoking command in '/home/ros2curso/curso/lab1/build/demo_nodos': PYTHONPATH=/home/ros2curso/curso/lab1/build/demo_nodos/prefix_override:/home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros2curso/curso/lab1/build/demo_nodos/build --no-deps symlink_data
+[1.236s] running develop
+[1.238s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.238s]   warnings.warn(
+[1.467s] running egg_info
+[1.467s] writing demo_nodos.egg-info/PKG-INFO
+[1.468s] writing dependency_links to demo_nodos.egg-info/dependency_links.txt
+[1.468s] writing entry points to demo_nodos.egg-info/entry_points.txt
+[1.468s] writing requirements to demo_nodos.egg-info/requires.txt
+[1.468s] writing top-level names to demo_nodos.egg-info/top_level.txt
+[1.468s] reading manifest file 'demo_nodos.egg-info/SOURCES.txt'
+[1.468s] writing manifest file 'demo_nodos.egg-info/SOURCES.txt'
+[1.472s] running build_ext
+[1.473s] Creating /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo-nodos.egg-link (link to .)
+[1.482s] Installing pub_node_rgba script to /home/ros2curso/curso/lab1/install/demo_nodos/lib/demo_nodos
+[1.485s] Installing simple_node script to /home/ros2curso/curso/lab1/install/demo_nodos/lib/demo_nodos
+[1.485s] 
+[1.485s] Installed /home/ros2curso/curso/lab1/build/demo_nodos
+[1.485s] running symlink_data
+[1.541s] Invoked command in '/home/ros2curso/curso/lab1/build/demo_nodos' returned '0': PYTHONPATH=/home/ros2curso/curso/lab1/build/demo_nodos/prefix_override:/home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros2curso/curso/lab1/build/demo_nodos/build --no-deps symlink_data

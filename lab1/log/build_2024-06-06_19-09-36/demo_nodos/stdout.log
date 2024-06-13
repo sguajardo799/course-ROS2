@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/demo_nodos/demo_nodos.egg-info
+writing ../build/demo_nodos/demo_nodos.egg-info/PKG-INFO
+writing dependency_links to ../build/demo_nodos/demo_nodos.egg-info/dependency_links.txt
+writing entry points to ../build/demo_nodos/demo_nodos.egg-info/entry_points.txt
+writing requirements to ../build/demo_nodos/demo_nodos.egg-info/requires.txt
+writing top-level names to ../build/demo_nodos/demo_nodos.egg-info/top_level.txt
+writing manifest file '../build/demo_nodos/demo_nodos.egg-info/SOURCES.txt'
+reading manifest file '../build/demo_nodos/demo_nodos.egg-info/SOURCES.txt'
+writing manifest file '../build/demo_nodos/demo_nodos.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros2curso/curso/lab1/build/demo_nodos/build
+creating /home/ros2curso/curso/lab1/build/demo_nodos/build/lib
+creating /home/ros2curso/curso/lab1/build/demo_nodos/build/lib/demo_nodos
+copying demo_nodos/__init__.py -> /home/ros2curso/curso/lab1/build/demo_nodos/build/lib/demo_nodos
+running install
+running install_lib
+creating /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos
+copying /home/ros2curso/curso/lab1/build/demo_nodos/build/lib/demo_nodos/__init__.py -> /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos
+byte-compiling /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ros2curso/curso/lab1/install/demo_nodos/share/ament_index
+creating /home/ros2curso/curso/lab1/install/demo_nodos/share/ament_index/resource_index
+creating /home/ros2curso/curso/lab1/install/demo_nodos/share/ament_index/resource_index/packages
+copying resource/demo_nodos -> /home/ros2curso/curso/lab1/install/demo_nodos/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros2curso/curso/lab1/install/demo_nodos/share/demo_nodos
+running install_egg_info
+Copying ../build/demo_nodos/demo_nodos.egg-info to /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ros2curso/curso/lab1/build/demo_nodos/install.log'

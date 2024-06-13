@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+demo_nodos/__init__.py
+demo_nodos/pub_node.py
+demo_nodos/simple_node.py
+demo_nodos.egg-info/PKG-INFO
+demo_nodos.egg-info/SOURCES.txt
+demo_nodos.egg-info/dependency_links.txt
+demo_nodos.egg-info/entry_points.txt
+demo_nodos.egg-info/requires.txt
+demo_nodos.egg-info/top_level.txt
+demo_nodos.egg-info/zip-safe
+resource/demo_nodos

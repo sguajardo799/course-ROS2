@@ -1,0 +1,24 @@
+[0.906s] Invoking command in '/home/ros2curso/curso/lab1/demo_nodos': PYTHONPATH=/home/ros2curso/curso/lab1/build/demo_nodos/prefix_override:/home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/demo_nodos build --build-base /home/ros2curso/curso/lab1/build/demo_nodos/build install --record /home/ros2curso/curso/lab1/build/demo_nodos/install.log --single-version-externally-managed install_data
+[1.206s] running egg_info
+[1.208s] writing ../build/demo_nodos/demo_nodos.egg-info/PKG-INFO
+[1.210s] writing dependency_links to ../build/demo_nodos/demo_nodos.egg-info/dependency_links.txt
+[1.211s] writing entry points to ../build/demo_nodos/demo_nodos.egg-info/entry_points.txt
+[1.212s] writing requirements to ../build/demo_nodos/demo_nodos.egg-info/requires.txt
+[1.213s] writing top-level names to ../build/demo_nodos/demo_nodos.egg-info/top_level.txt
+[1.219s] reading manifest file '../build/demo_nodos/demo_nodos.egg-info/SOURCES.txt'
+[1.220s] writing manifest file '../build/demo_nodos/demo_nodos.egg-info/SOURCES.txt'
+[1.220s] running build
+[1.221s] running build_py
+[1.221s] copying demo_nodos/simple_node.py -> /home/ros2curso/curso/lab1/build/demo_nodos/build/lib/demo_nodos
+[1.221s] running install
+[1.221s] running install_lib
+[1.222s] copying /home/ros2curso/curso/lab1/build/demo_nodos/build/lib/demo_nodos/simple_node.py -> /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos
+[1.224s] byte-compiling /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos/simple_node.py to simple_node.cpython-310.pyc
+[1.226s] running install_data
+[1.226s] running install_egg_info
+[1.231s] removing '/home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos-0.0.0-py3.10.egg-info' (and everything under it)
+[1.232s] Copying ../build/demo_nodos/demo_nodos.egg-info to /home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages/demo_nodos-0.0.0-py3.10.egg-info
+[1.235s] running install_scripts
+[1.267s] Installing simple_n script to /home/ros2curso/curso/lab1/install/demo_nodos/lib/demo_nodos
+[1.268s] writing list of installed files to '/home/ros2curso/curso/lab1/build/demo_nodos/install.log'
+[1.323s] Invoked command in '/home/ros2curso/curso/lab1/demo_nodos' returned '0': PYTHONPATH=/home/ros2curso/curso/lab1/build/demo_nodos/prefix_override:/home/ros2curso/curso/lab1/install/demo_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/demo_nodos build --build-base /home/ros2curso/curso/lab1/build/demo_nodos/build install --record /home/ros2curso/curso/lab1/build/demo_nodos/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+pub_node_rgba = demo_nodos.pub_node:main
+simple_node = demo_nodos.simple_node:main
+
