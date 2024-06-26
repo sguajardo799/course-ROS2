@@ -1,0 +1,33 @@
+[1.021s] Invoking command in '/home/ros2curso/curso/lab5/demo_simulation3': PYTHONPATH=/home/ros2curso/curso/lab5/build/demo_simulation3/prefix_override:/home/ros2curso/curso/lab5/install/demo_simulation3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/demo_simulation3 build --build-base /home/ros2curso/curso/lab5/build/demo_simulation3/build install --record /home/ros2curso/curso/lab5/build/demo_simulation3/install.log --single-version-externally-managed install_data
+[1.305s] running egg_info
+[1.305s] creating ../build/demo_simulation3/demo_simulation3.egg-info
+[1.305s] writing ../build/demo_simulation3/demo_simulation3.egg-info/PKG-INFO
+[1.305s] writing dependency_links to ../build/demo_simulation3/demo_simulation3.egg-info/dependency_links.txt
+[1.305s] writing entry points to ../build/demo_simulation3/demo_simulation3.egg-info/entry_points.txt
+[1.306s] writing requirements to ../build/demo_simulation3/demo_simulation3.egg-info/requires.txt
+[1.306s] writing top-level names to ../build/demo_simulation3/demo_simulation3.egg-info/top_level.txt
+[1.307s] writing manifest file '../build/demo_simulation3/demo_simulation3.egg-info/SOURCES.txt'
+[1.309s] reading manifest file '../build/demo_simulation3/demo_simulation3.egg-info/SOURCES.txt'
+[1.313s] writing manifest file '../build/demo_simulation3/demo_simulation3.egg-info/SOURCES.txt'
+[1.313s] running build
+[1.314s] running build_py
+[1.314s] creating /home/ros2curso/curso/lab5/build/demo_simulation3/build
+[1.314s] creating /home/ros2curso/curso/lab5/build/demo_simulation3/build/lib
+[1.314s] creating /home/ros2curso/curso/lab5/build/demo_simulation3/build/lib/demo_simulation3
+[1.314s] copying demo_simulation3/__init__.py -> /home/ros2curso/curso/lab5/build/demo_simulation3/build/lib/demo_simulation3
+[1.314s] running install
+[1.315s] running install_lib
+[1.315s] creating /home/ros2curso/curso/lab5/install/demo_simulation3/lib/python3.10/site-packages/demo_simulation3
+[1.316s] copying /home/ros2curso/curso/lab5/build/demo_simulation3/build/lib/demo_simulation3/__init__.py -> /home/ros2curso/curso/lab5/install/demo_simulation3/lib/python3.10/site-packages/demo_simulation3
+[1.317s] byte-compiling /home/ros2curso/curso/lab5/install/demo_simulation3/lib/python3.10/site-packages/demo_simulation3/__init__.py to __init__.cpython-310.pyc
+[1.318s] running install_data
+[1.318s] creating /home/ros2curso/curso/lab5/install/demo_simulation3/share/ament_index
+[1.319s] creating /home/ros2curso/curso/lab5/install/demo_simulation3/share/ament_index/resource_index
+[1.319s] creating /home/ros2curso/curso/lab5/install/demo_simulation3/share/ament_index/resource_index/packages
+[1.319s] copying resource/demo_simulation3 -> /home/ros2curso/curso/lab5/install/demo_simulation3/share/ament_index/resource_index/packages
+[1.319s] copying package.xml -> /home/ros2curso/curso/lab5/install/demo_simulation3/share/demo_simulation3
+[1.319s] running install_egg_info
+[1.320s] Copying ../build/demo_simulation3/demo_simulation3.egg-info to /home/ros2curso/curso/lab5/install/demo_simulation3/lib/python3.10/site-packages/demo_simulation3-0.0.0-py3.10.egg-info
+[1.322s] running install_scripts
+[1.345s] writing list of installed files to '/home/ros2curso/curso/lab5/build/demo_simulation3/install.log'
+[1.375s] Invoked command in '/home/ros2curso/curso/lab5/demo_simulation3' returned '0': PYTHONPATH=/home/ros2curso/curso/lab5/build/demo_simulation3/prefix_override:/home/ros2curso/curso/lab5/install/demo_simulation3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/demo_simulation3 build --build-base /home/ros2curso/curso/lab5/build/demo_simulation3/build install --record /home/ros2curso/curso/lab5/build/demo_simulation3/install.log --single-version-externally-managed install_data

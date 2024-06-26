@@ -1,0 +1,36 @@
+[0.834s] Invoking command in '/home/ros2curso/curso/lab4/demo_simulation_2': PYTHONPATH=/home/ros2curso/curso/lab4/build/demo_simulation_2/prefix_override:/home/ros2curso/curso/lab4/install/demo_simulation_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/demo_simulation_2 build --build-base /home/ros2curso/curso/lab4/build/demo_simulation_2/build install --record /home/ros2curso/curso/lab4/build/demo_simulation_2/install.log --single-version-externally-managed install_data
+[1.100s] running egg_info
+[1.101s] creating ../build/demo_simulation_2/demo_simulation_2.egg-info
+[1.102s] writing ../build/demo_simulation_2/demo_simulation_2.egg-info/PKG-INFO
+[1.102s] writing dependency_links to ../build/demo_simulation_2/demo_simulation_2.egg-info/dependency_links.txt
+[1.103s] writing entry points to ../build/demo_simulation_2/demo_simulation_2.egg-info/entry_points.txt
+[1.103s] writing requirements to ../build/demo_simulation_2/demo_simulation_2.egg-info/requires.txt
+[1.103s] writing top-level names to ../build/demo_simulation_2/demo_simulation_2.egg-info/top_level.txt
+[1.104s] writing manifest file '../build/demo_simulation_2/demo_simulation_2.egg-info/SOURCES.txt'
+[1.106s] reading manifest file '../build/demo_simulation_2/demo_simulation_2.egg-info/SOURCES.txt'
+[1.107s] writing manifest file '../build/demo_simulation_2/demo_simulation_2.egg-info/SOURCES.txt'
+[1.107s] running build
+[1.108s] running build_py
+[1.111s] creating /home/ros2curso/curso/lab4/build/demo_simulation_2/build
+[1.111s] creating /home/ros2curso/curso/lab4/build/demo_simulation_2/build/lib
+[1.111s] creating /home/ros2curso/curso/lab4/build/demo_simulation_2/build/lib/demo_simulation_2
+[1.111s] copying demo_simulation_2/__init__.py -> /home/ros2curso/curso/lab4/build/demo_simulation_2/build/lib/demo_simulation_2
+[1.111s] running install
+[1.113s] running install_lib
+[1.113s] creating /home/ros2curso/curso/lab4/install/demo_simulation_2/lib/python3.10/site-packages/demo_simulation_2
+[1.113s] copying /home/ros2curso/curso/lab4/build/demo_simulation_2/build/lib/demo_simulation_2/__init__.py -> /home/ros2curso/curso/lab4/install/demo_simulation_2/lib/python3.10/site-packages/demo_simulation_2
+[1.114s] byte-compiling /home/ros2curso/curso/lab4/install/demo_simulation_2/lib/python3.10/site-packages/demo_simulation_2/__init__.py to __init__.cpython-310.pyc
+[1.114s] running install_data
+[1.114s] creating /home/ros2curso/curso/lab4/install/demo_simulation_2/share/ament_index
+[1.114s] creating /home/ros2curso/curso/lab4/install/demo_simulation_2/share/ament_index/resource_index
+[1.115s] creating /home/ros2curso/curso/lab4/install/demo_simulation_2/share/ament_index/resource_index/packages
+[1.115s] copying resource/demo_simulation_2 -> /home/ros2curso/curso/lab4/install/demo_simulation_2/share/ament_index/resource_index/packages
+[1.115s] copying package.xml -> /home/ros2curso/curso/lab4/install/demo_simulation_2/share/demo_simulation_2
+[1.115s] creating /home/ros2curso/curso/lab4/install/demo_simulation_2/share/demo_simulation_2/launch
+[1.115s] copying launch/gazebo.launch.py -> /home/ros2curso/curso/lab4/install/demo_simulation_2/share/demo_simulation_2/launch/
+[1.115s] copying launch/visualization.launch.py -> /home/ros2curso/curso/lab4/install/demo_simulation_2/share/demo_simulation_2/launch/
+[1.115s] running install_egg_info
+[1.117s] Copying ../build/demo_simulation_2/demo_simulation_2.egg-info to /home/ros2curso/curso/lab4/install/demo_simulation_2/lib/python3.10/site-packages/demo_simulation_2-0.0.0-py3.10.egg-info
+[1.118s] running install_scripts
+[1.145s] writing list of installed files to '/home/ros2curso/curso/lab4/build/demo_simulation_2/install.log'
+[1.178s] Invoked command in '/home/ros2curso/curso/lab4/demo_simulation_2' returned '0': PYTHONPATH=/home/ros2curso/curso/lab4/build/demo_simulation_2/prefix_override:/home/ros2curso/curso/lab4/install/demo_simulation_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/demo_simulation_2 build --build-base /home/ros2curso/curso/lab4/build/demo_simulation_2/build install --record /home/ros2curso/curso/lab4/build/demo_simulation_2/install.log --single-version-externally-managed install_data

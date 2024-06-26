@@ -1,0 +1,20 @@
+[0.708s] Invoking command in '/home/ros2curso/curso/lab4/demo_simulation_2': PYTHONPATH=/home/ros2curso/curso/lab4/build/demo_simulation_2/prefix_override:/home/ros2curso/curso/lab4/install/demo_simulation_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/demo_simulation_2 build --build-base /home/ros2curso/curso/lab4/build/demo_simulation_2/build install --record /home/ros2curso/curso/lab4/build/demo_simulation_2/install.log --single-version-externally-managed install_data
+[0.969s] running egg_info
+[0.970s] writing ../build/demo_simulation_2/demo_simulation_2.egg-info/PKG-INFO
+[0.970s] writing dependency_links to ../build/demo_simulation_2/demo_simulation_2.egg-info/dependency_links.txt
+[0.970s] writing entry points to ../build/demo_simulation_2/demo_simulation_2.egg-info/entry_points.txt
+[0.972s] writing requirements to ../build/demo_simulation_2/demo_simulation_2.egg-info/requires.txt
+[0.973s] writing top-level names to ../build/demo_simulation_2/demo_simulation_2.egg-info/top_level.txt
+[0.975s] reading manifest file '../build/demo_simulation_2/demo_simulation_2.egg-info/SOURCES.txt'
+[0.976s] writing manifest file '../build/demo_simulation_2/demo_simulation_2.egg-info/SOURCES.txt'
+[0.977s] running build
+[0.977s] running build_py
+[0.977s] running install
+[0.977s] running install_lib
+[0.979s] running install_data
+[0.979s] running install_egg_info
+[0.982s] removing '/home/ros2curso/curso/lab4/install/demo_simulation_2/lib/python3.10/site-packages/demo_simulation_2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.982s] Copying ../build/demo_simulation_2/demo_simulation_2.egg-info to /home/ros2curso/curso/lab4/install/demo_simulation_2/lib/python3.10/site-packages/demo_simulation_2-0.0.0-py3.10.egg-info
+[0.983s] running install_scripts
+[1.011s] writing list of installed files to '/home/ros2curso/curso/lab4/build/demo_simulation_2/install.log'
+[1.047s] Invoked command in '/home/ros2curso/curso/lab4/demo_simulation_2' returned '0': PYTHONPATH=/home/ros2curso/curso/lab4/build/demo_simulation_2/prefix_override:/home/ros2curso/curso/lab4/install/demo_simulation_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/demo_simulation_2 build --build-base /home/ros2curso/curso/lab4/build/demo_simulation_2/build install --record /home/ros2curso/curso/lab4/build/demo_simulation_2/install.log --single-version-externally-managed install_data
