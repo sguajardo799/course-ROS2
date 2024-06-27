@@ -1,44 +1,9 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
-<xacro:property name="base_width" value = "0.31"/>
-<xacro:property name="base_length" value = "0.42"/>
-<xacro:property name="base_height" value = "0.18"/>
+  <xacro:include filename="params.xacro"/>
 
-<xacro:property name="wheel_radius" value="0.10"/>
-<xacro:property name="wheel_width" value="0.04"/>
-<xacro:property name="wheel_ygap" value="0.025"/>
-<xacro:property name="wheel_zoff" value="0.01"/>
-<xacro:property name="wheel_xoff" value="0.05"/>
-
-<xacro:property name="caster_xoff" value="0.1"/>
-
-  <!-- Define intertial property macros  -->
-  <xacro:macro name="box_inertia" params="m w h d">
-    <inertial>
-      <origin xyz="0 0 0" rpy="${pi/2} 0 ${pi/2}"/>
-      <mass value="${m}"/>
-      <inertia ixx="${(m/12) * (h*h + d*d)}" ixy="0.0" ixz="0.0" iyy="${(m/12) * (w*w + d*d)}" iyz="0.0" izz="${(m/12) * (w*w + h*h)}"/>
-    </inertial>
-  </xacro:macro>
-
-  <xacro:macro name="cylinder_inertia" params="m r h">
-    <inertial>
-      <origin xyz="0 0 0" rpy="${pi/2} 0 0" />
-      <mass value="${m}"/>
-      <inertia ixx="${(m/12) * (3*r*r + h*h)}" ixy = "0" ixz = "0" iyy="${(m/12) * (3*r*r + h*h)}" iyz = "0" izz="${(m/2) * (r*r)}"/>
-    </inertial>
-  </xacro:macro>
-
-  <xacro:macro name="sphere_inertia" params="m r">
-    <inertial>
-      <mass value="${m}"/>
-      <inertia ixx="${(2/5) * m * (r*r)}" ixy="0.0" ixz="0.0" iyy="${(2/5) * m * (r*r)}" iyz="0.0" izz="${(2/5) * m * (r*r)}"/>
-    </inertial>
-  </xacro:macro>
-
-
-  <!-- Robot Base -->
+  <!-- Robot Link -->
   <link name="base_link">
     <visual>
     <origin xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
@@ -59,11 +24,11 @@
     <xacro:box_inertia m="5" w="${base_width}" d="${base_length}" h="${base_height}"/>
   </link>
 
-   <gazebo reference="base_link">
+  <gazebo reference="base_link">
     <material>Gazebo/Orange</material>
   </gazebo>
 
-    <!-- Caster Wheel -->
+  <!-- Caster Wheel -->
   <link name="caster">
     <visual>
       <geometry>
@@ -85,6 +50,8 @@
 
    <gazebo reference="caster">
     <material>Gazebo/Blue</material>
+    <mu1 value="0.001"/>
+    <mu2 value="0.001"/>
   </gazebo>
 
   <joint name="caster_joint" type="fixed">
@@ -93,7 +60,7 @@
     <origin xyz="${-caster_xoff} 0.0 0" rpy="0 0 0"/>
   </joint>
 
-    <!-- Wheels -->
+  <!-- Wheels -->
   <xacro:macro name="wheel" params="prefix x_reflect y_reflect">
     <link name="${prefix}_link">
       <visual>
@@ -139,16 +106,17 @@
     <wheel_diameter>0.2</wheel_diameter>
 
     <!-- limits -->
-    <max_wheel_torque>80</max_wheel_torque>
-    <max_wheel_acceleration>1.0</max_wheel_acceleration>
+    <max_wheel_torque>200</max_wheel_torque>
+    <max_wheel_acceleration>10.0</max_wheel_acceleration>
 
     <!-- output -->
-    <publish_odom>true</publish_odom>
-    <publish_odom_tf>false</publish_odom_tf>
-    <publish_wheel_tf>true</publish_wheel_tf>
-
     <odometry_frame>odom</odometry_frame>
     <robot_base_frame>base_link</robot_base_frame>
+
+    <publish_odom>true</publish_odom>
+    <publish_odom_tf>true</publish_odom_tf>
+    <publish_wheel_tf>true</publish_wheel_tf>
+
   </plugin>
 </gazebo>
 

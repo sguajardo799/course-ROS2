@@ -15,12 +15,6 @@ def generate_launch_description():
         }]
     )
 
-    joint = Node(
-        package="joint_state_publisher_gui",
-        executable="joint_state_publisher_gui",
-        name="joint_state_publisher_gui"
-    )
-
     spawn_entity = Node(
         package="gazebo_ros",
         executable="spawn_entity.py",
@@ -41,8 +35,7 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        gazebo,
         pub,
-        joint,
+        gazebo,
         spawn_entity
     ])

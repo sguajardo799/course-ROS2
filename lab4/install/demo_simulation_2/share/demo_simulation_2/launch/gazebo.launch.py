@@ -41,8 +41,7 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        gazebo,
         pub,
-        joint,
+        gazebo,
         spawn_entity
     ])

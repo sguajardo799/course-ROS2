@@ -9,6 +9,7 @@ setup.py
 ../build/demo_simulation3/demo_simulation3.egg-info/top_level.txt
 ../build/demo_simulation3/demo_simulation3.egg-info/zip-safe
 demo_simulation3/__init__.py
+launch/sim.launch.py
 resource/demo_simulation3
 test/test_copyright.py
 test/test_flake8.py
